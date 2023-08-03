@@ -1,0 +1,23 @@
+@import "../../../../Constant.scss";
+
+.section-log{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right top, #1e66e2, #0089ebc2, #bbecffb0, #34bcdb67, #85d0d5);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    display: grid;
+    grid-template-columns:50% 50%;
+    .content-log{
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        @extend %glass1;
+        .autetication-log{
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+            border-radius: 40px;
+        }
+    }
+}

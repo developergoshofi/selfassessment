@@ -1,0 +1,13 @@
+@import "../../../Constant.scss";
+
+.container-login{
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    background-image: url('https://firebasestorage.googleapis.com/v0/b/goshofi-c578e.appspot.com/o/brands%2Flogin_sofi%20(1).png?alt=media&token=94030ec6-4b4a-4db0-b53b-e2e0c1aafb44');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,49 @@
+@import "../../../../Constant.scss";
+
+.desktop-menu{
+    display: flex;
+    grid-gap: 20px;
+    align-content: center;
+    align-items: center;
+    .button-navbar{
+        font-family: $font;
+        font-size: $fsize;
+        text-decoration: none;
+        color:$color6;
+        font-weight: 500;
+        @extend %trans;
+        &:hover{
+            font-size: 18px;
+            color: $color1;
+            @extend %trans;
+        }
+    }
+    .button-color{
+        display: flex;
+        font-family: $font;
+        font-size: $fsize;
+        text-decoration: none;
+        color:$color8;
+        background: $color1;
+        padding: 10px 20px;
+        border-radius: 20px;
+        border: 2px solid $color1;
+        font-weight: 500;
+        @extend %trans;
+        grid-gap: 10px;
+        align-content: center;
+        align-items: center;
+        &:hover{
+            color: $color1;
+            @extend %trans;
+            background: $color8;
+            border: 2px solid $color1;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .desktop-menu{
+        display: none;
+    }
+}

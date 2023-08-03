@@ -1,0 +1,33 @@
+@import "../../../../Constant.scss";
+
+.footer{
+    display: grid;
+    background: $color5;
+    .container-footer{
+        display: grid;
+        padding: 50px;
+        grid-gap: 30px;
+        grid-template-columns: repeat(3, 1fr);
+        .footer-brand{
+            text-align: right;
+            .brand{
+                max-width: 200px;
+            }
+            .title-brand-footer{
+                color: $color8;
+                font-size: 3.5vw;
+                text-align: right;
+                line-height: 3.1vw;
+            }
+        }
+    }
+    .copy-footer{
+        display: grid;
+        color: $color8;
+        font-size: 12px;
+        grid-template-columns: 1fr;
+        padding: 10x 50px;
+        justify-items: center;
+        align-items: center;
+    }
+}

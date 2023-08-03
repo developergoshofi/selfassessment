@@ -1,0 +1,16 @@
+@import "../../../../Constant.scss";
+
+header{
+    display: grid;
+    width: 100%;
+    @extend %glass;
+    position: fixed;
+    z-index: 999;
+    .container-menu{
+        display: grid;
+        align-items: center;
+        padding: 10px 50px;
+        justify-content: space-between;
+        grid-template-columns: 150px auto;
+    }
+}

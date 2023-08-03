@@ -1,0 +1,18 @@
+@import "../../../../Constant.scss";
+
+.burguer-movil{
+    display: none;
+    background: $color1;
+    border: 2px solid $color1;
+    padding: 15px;
+    border-radius: 50%;
+    svg{
+        color: $color8;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 800px){
+    .burguer-movil{
+        display: grid;
+    }
+}
